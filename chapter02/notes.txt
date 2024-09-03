@@ -1,0 +1,32 @@
+All Python data is an object!
+
+Most data types are NOT mutable. The few data types which are mutable are;
+
+- list
+- bytearray
+- set
+- dict
+
+Python is stringly typed. The type of an object does not change even if the value is mutable.
+
+Variable names can only contain the following;
+
+- A-Z
+- a-z
+- 0-9
+- _
+
+Variable names are case sensitive.
+
+Variables must begin with a letter or underscore (not a digit).
+
+Variables beginning with an underscore are treated specially.
+
+Use = to assign to a variable.
+
+In Python VARIABLES ARE JUST NAMES!!! Assignment does not copy a value, it just attaches a name to the object that contains
+the data. The name is a reference to a thing rather than the thing itself.
+
+If you want to know the type of anything use the function type(<thing>), e.g. type(7).
+
+If you want to check whether a variable points to an object of a specific type use isinstance(<thing>, <type>), e.g. isinstance(7, int).
