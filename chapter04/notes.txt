@@ -1,0 +1,51 @@
+# This is a single line comment.
+
+# Python does not have a multi-line comment,
+# so we have to do this.
+
+# This is an if/elif/else block.
+# Recommended indentation is 4 spaces (not a tab1!)
+
+if x > 0:
+    print("x is positive!")
+elif x < 0:
+    print("x is negative!")
+else:
+    print("x is zero!")
+
+==================================================
+
+# Here are some operators:
+
+==  Test for equality
+!=  Test for inequality
+<   Less than
+<=  Less than or equal to
+>   Greater than
+>=  Greater than or equal to
+
+# Logical (boolean) operators:
+
+not
+and
+or
+
+# What is considered false?
+
+False
+0
+0.0
+''      (empty string)
+[]      (empty list)
+()      (empty tuple)
+{}      (empty dict)
+set()   (empty set)
+
+# Perform multiple or comparisons using the membership operator (in).
+# Note if using with a dictionary the comparison is made with the key not the value!
+
+vowels = 'aeiou'
+letter = 'i'
+if letter in vowels:
+    print('This is a vowel')
+
