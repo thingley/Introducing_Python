@@ -1,0 +1,32 @@
+Booleans are True or False.
+
+Cast a value to boolean using bool(<value>).
+
+==================================================
+
+Integers may have a lead - to indicate a negative value, e.g. -1.
+
+Integers can use underscores as digit separators, e.g. 1_000_000.
+
+Operators are;
+
+    +   Addition
+    -   Subtraction
+    *   Multiplication
+    /   Floating point division
+    //  Integer (truncating) division
+    %   Modulus (remainder)
+    **  Exponentiation
+
+Cast a value to integer using int(<value>).
+
+==================================================
+
+Floats are numbers with a decimal point.
+
+Cast a value to float using float(<value>).
+
+==================================================
+
+When you mix values, Python automatically promotes booleans to integers and integers to floats.
+
