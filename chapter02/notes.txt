@@ -7,7 +7,7 @@ Most data types are NOT mutable. The few data types which are mutable are;
 - set
 - dict
 
-Python is stringly typed. The type of an object does not change even if the value is mutable.
+Python is strongly typed. The type of an object does not change even if the value is mutable.
 
 Variable names can only contain the following;
 

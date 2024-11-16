@@ -1,0 +1,71 @@
+Tuples and lists can contain elements of different types.
+
+Tuples are immutable. You assign elements only once and then cannot be changed.
+
+List are mutable. You can insert and delete elements as required.
+
+==================================================
+
+The syntax for creating tuples is a little inconsistent.
+
+    e.g.
+
+    emptyTuple = ()
+
+    singleElementTupleA = 'Groucho',
+    singleElementTupleB = ('Groucho',)
+
+    multiElementTupleA = 'Groucho', 'Chico', 'Harpo'
+    multiElementTupleB = ('Groucho', 'Chico', 'Harpo')
+
+Tuples allow assigment to multiple variables at once, called tuple unpacking.
+
+    e.g.
+
+    a, b, c = multiElementTupleA
+
+You can use tuples to exchange values in a single statement without having to use temporary variables.
+
+    e.g.
+
+    forename = 'hingley'
+    surname = 'trevor'
+
+    forename, surname = surname, forename
+
+Cast to a tuple using tuple().
+
+Combine tuples using +.
+
+Duplicate items using *.
+
+==================================================
+
+A list is made from zero or more elements separated by commas and surrounded by square brackets.
+
+    e.g.
+
+    emptyList = []
+    weekndDays = ['Saturday', 'Sunday']
+
+Cast iterable types to a list using list().
+
+As with strings, get a single item from a list using [<offset>].
+
+You can extract a subsequence of a list using a slice.
+
+Add an item to the end with append().
+
+Add an item by offset with insert().
+
+Change an item by [<offset>].
+
+Delete an item by Offset with del.
+
+Delete an item by Value with remove().
+
+Test for a value with in.
+
+Count occurences of a Value with count(<value>).
+
+Get the number of items with len().

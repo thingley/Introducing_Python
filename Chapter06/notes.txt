@@ -1,0 +1,33 @@
+Python has two loops, while and for.
+
+==================================================
+
+Below is a while loop. The else section is executed if the while loop exits normally (i.e. no break is used).
+
+while <condition>:
+    <statement(s)>
+else:
+    <statement(s)>
+
+Exit a loop with break.
+
+Jump to the next iteration with continue.
+
+==================================================
+
+Iterable data includes strings, lists, tuples and dictionaries.
+
+Use for and in to iterate through data.
+
+e.g.
+
+textData = "The quick brown fox"
+
+for letter in textData:
+    if letter in "xX":
+        print("X found!")
+        break
+else:
+    print("No X found...")
+
+

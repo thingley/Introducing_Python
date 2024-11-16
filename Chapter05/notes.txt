@@ -1,0 +1,59 @@
+String literals can specifiec using single or double quotes.
+
+Cast a value to string using str(<value>).
+
+Some string escape sequences;
+
+    \n  newline
+    \t  tab
+    \\  literal backslash
+
+A raw string can be specified with an r or R prefix, which negates escape sequences, e.g. r'This is a raw string'.
+
+Concatenate strings with +, e.g. "Hello" + " " + "World".
+
+Duplicate strings using *, e.g. 'Ha ' * 4.
+
+Get a single character from a string using [<index>] where index is zero based, e.g. myString[0] gives the first character in a string.
+
+Get a substring using a slice, which includes a start and end offset separated by :. The slice will include characters from start to
+one before end. An optional third step argument can also be provided.
+
+    [:]                     extracts the entire seqeunce from start to end
+    [<start>:]              extracts from the start offset to the end
+    [:<end>]                extracts from the beginning to end offset - 1.
+    [<start>:<end>]         extracts from the start offset to end offset - 1.
+    [<start>:<end>:<step>]  extracts from the start offset to end offset - 1 skipping characters by step.
+
+len(<string>) returns characters in the string. It is not a string specific function.
+
+String-specific functions should be called using a . to refer to the function.
+
+<string>.split(<separator>) splits the string using the specified separator and returns them as a list.
+
+<separator string>.join(<list>) is the opposite of split, e.g. ", ".join(myNames).
+
+<string>.replace(<string to replace>, <replacement string>, <number of instances to replace>) is used for substring substitution.
+
+<string>.strip() will replace leading and trailing whitespace characters.
+<string>.strip('X') will replace leading and trailing 'X' characters.
+<string>.strip('AEIOU') will replace any leading and trailing 'A', 'E', 'I', 'O' and 'U' characters.
+<string>.lstrip() will replace only leading whitespace characters.
+<string>.rstrip() will replace only trailing whitespace characters.
+
+==================================================
+
+Python has three ways of formatting strings
+
+    old style (Python 2+)
+    new style (Python 2.6+)
+    f-strings (Python 3.6+)
+
+F strings are now the recommended way. Simply put and F before the opening string quote and include data using {}.
+
+e.g.
+
+firstName = "Trevor"
+secondName = "Hingley"
+print(F'Hello {firstName} {secondName}')
+
